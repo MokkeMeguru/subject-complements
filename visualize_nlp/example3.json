@@ -1,0 +1,638 @@
+{
+  "original text": "電脳少女シロを筆頭に、アイドル部12名、メリーミルクが所属するバーチャルYouTuberプロダクションである。ついでに世界初男性バーチャルYouTuberのばあちゃるも所属している。",
+  "result_sentence": [
+    [
+      {
+        "dependency_relation": "compound",
+        "governor": 3,
+        "index": 1,
+        "lemma": "電脳",
+        "raw_word": "電脳",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "compound",
+        "governor": 3,
+        "index": 2,
+        "lemma": "少女",
+        "raw_word": "少女",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "nmod",
+        "governor": 5,
+        "index": 3,
+        "lemma": "シロ",
+        "raw_word": "シロ",
+        "upos": "PROPN"
+      },
+      {
+        "dependency_relation": "case",
+        "governor": 3,
+        "index": 4,
+        "lemma": "を",
+        "raw_word": "を",
+        "upos": "ADP"
+      },
+      {
+        "dependency_relation": "iobj",
+        "governor": 15,
+        "index": 5,
+        "lemma": "筆頭",
+        "raw_word": "筆頭",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "case",
+        "governor": 5,
+        "index": 6,
+        "lemma": "に",
+        "raw_word": "に",
+        "upos": "ADP"
+      },
+      {
+        "dependency_relation": "punct",
+        "governor": 5,
+        "index": 7,
+        "lemma": "、",
+        "raw_word": "、",
+        "upos": "PUNCT"
+      },
+      {
+        "dependency_relation": "compound",
+        "governor": 10,
+        "index": 8,
+        "lemma": "アイドル",
+        "raw_word": "アイドル",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "compound",
+        "governor": 10,
+        "index": 9,
+        "lemma": "部",
+        "raw_word": "部",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "nummod",
+        "governor": 19,
+        "index": 10,
+        "lemma": "12",
+        "raw_word": "12",
+        "upos": "NUM"
+      },
+      {
+        "dependency_relation": "mark",
+        "governor": 10,
+        "index": 11,
+        "lemma": "名",
+        "raw_word": "名",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "punct",
+        "governor": 10,
+        "index": 12,
+        "lemma": "、",
+        "raw_word": "、",
+        "upos": "PUNCT"
+      },
+      {
+        "dependency_relation": "nsubj",
+        "governor": 15,
+        "index": 13,
+        "lemma": "メリーミルク",
+        "raw_word": "メリーミルク",
+        "upos": "PROPN"
+      },
+      {
+        "dependency_relation": "case",
+        "governor": 13,
+        "index": 14,
+        "lemma": "が",
+        "raw_word": "が",
+        "upos": "ADP"
+      },
+      {
+        "dependency_relation": "acl",
+        "governor": 19,
+        "index": 15,
+        "lemma": "所属",
+        "raw_word": "所属",
+        "upos": "VERB"
+      },
+      {
+        "dependency_relation": "aux",
+        "governor": 15,
+        "index": 16,
+        "lemma": "する",
+        "raw_word": "する",
+        "upos": "AUX"
+      },
+      {
+        "dependency_relation": "compound",
+        "governor": 19,
+        "index": 17,
+        "lemma": "バーチャル",
+        "raw_word": "バーチャル",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "compound",
+        "governor": 19,
+        "index": 18,
+        "lemma": "YouTuber",
+        "raw_word": "YouTuber",
+        "upos": "PROPN"
+      },
+      {
+        "dependency_relation": "root",
+        "governor": 0,
+        "index": 19,
+        "lemma": "プロダクション",
+        "raw_word": "プロダクション",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "cop",
+        "governor": 19,
+        "index": 20,
+        "lemma": "だ",
+        "raw_word": "である",
+        "upos": "AUX"
+      },
+      {
+        "dependency_relation": "punct",
+        "governor": 19,
+        "index": 21,
+        "lemma": "。",
+        "raw_word": "。",
+        "upos": "PUNCT"
+      }
+    ],
+    [
+      {
+        "dependency_relation": "advmod",
+        "governor": 11,
+        "index": 1,
+        "lemma": "ついでに",
+        "raw_word": "ついでに",
+        "upos": "ADV"
+      },
+      {
+        "dependency_relation": "compound",
+        "governor": 4,
+        "index": 2,
+        "lemma": "世界",
+        "raw_word": "世界",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "amod",
+        "governor": 4,
+        "index": 3,
+        "lemma": "初",
+        "raw_word": "初",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "nmod",
+        "governor": 6,
+        "index": 4,
+        "lemma": "男性",
+        "raw_word": "男性",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "compound",
+        "governor": 6,
+        "index": 5,
+        "lemma": "バーチャル",
+        "raw_word": "バーチャル",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "obl",
+        "governor": 11,
+        "index": 6,
+        "lemma": "YouTuber",
+        "raw_word": "YouTuber",
+        "upos": "PROPN"
+      },
+      {
+        "dependency_relation": "case",
+        "governor": 6,
+        "index": 7,
+        "lemma": "の",
+        "raw_word": "の",
+        "upos": "ADP"
+      },
+      {
+        "dependency_relation": "mark",
+        "governor": 6,
+        "index": 8,
+        "lemma": "ば",
+        "raw_word": "ば",
+        "upos": "SCONJ"
+      },
+      {
+        "dependency_relation": "obl",
+        "governor": 11,
+        "index": 9,
+        "lemma": "あちゃる",
+        "raw_word": "あちゃる",
+        "upos": "NOUN"
+      },
+      {
+        "dependency_relation": "case",
+        "governor": 9,
+        "index": 10,
+        "lemma": "も",
+        "raw_word": "も",
+        "upos": "ADP"
+      },
+      {
+        "dependency_relation": "root",
+        "governor": 0,
+        "index": 11,
+        "lemma": "所属",
+        "raw_word": "所属",
+        "upos": "VERB"
+      },
+      {
+        "dependency_relation": "aux",
+        "governor": 11,
+        "index": 12,
+        "lemma": "する",
+        "raw_word": "し",
+        "upos": "AUX"
+      },
+      {
+        "dependency_relation": "mark",
+        "governor": 11,
+        "index": 13,
+        "lemma": "て",
+        "raw_word": "て",
+        "upos": "SCONJ"
+      },
+      {
+        "dependency_relation": "aux",
+        "governor": 11,
+        "index": 14,
+        "lemma": "いる",
+        "raw_word": "いる",
+        "upos": "AUX"
+      },
+      {
+        "dependency_relation": "punct",
+        "governor": 11,
+        "index": 15,
+        "lemma": "。",
+        "raw_word": "。",
+        "upos": "PUNCT"
+      }
+    ]
+  ],
+  "result_tree": [
+    [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "dependency_relation": "compound",
+                "governor": 10,
+                "index": 8,
+                "lemma": "アイドル",
+                "raw_word": "アイドル",
+                "upos": "NOUN"
+              },
+              {
+                "children": [],
+                "dependency_relation": "compound",
+                "governor": 10,
+                "index": 9,
+                "lemma": "部",
+                "raw_word": "部",
+                "upos": "NOUN"
+              },
+              {
+                "children": [],
+                "dependency_relation": "mark",
+                "governor": 10,
+                "index": 11,
+                "lemma": "名",
+                "raw_word": "名",
+                "upos": "NOUN"
+              },
+              {
+                "children": [],
+                "dependency_relation": "punct",
+                "governor": 10,
+                "index": 12,
+                "lemma": "、",
+                "raw_word": "、",
+                "upos": "PUNCT"
+              }
+            ],
+            "dependency_relation": "nummod",
+            "governor": 19,
+            "index": 10,
+            "lemma": "12",
+            "raw_word": "12",
+            "upos": "NUM"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "dependency_relation": "compound",
+                        "governor": 3,
+                        "index": 1,
+                        "lemma": "電脳",
+                        "raw_word": "電脳",
+                        "upos": "NOUN"
+                      },
+                      {
+                        "children": [],
+                        "dependency_relation": "compound",
+                        "governor": 3,
+                        "index": 2,
+                        "lemma": "少女",
+                        "raw_word": "少女",
+                        "upos": "NOUN"
+                      },
+                      {
+                        "children": [],
+                        "dependency_relation": "case",
+                        "governor": 3,
+                        "index": 4,
+                        "lemma": "を",
+                        "raw_word": "を",
+                        "upos": "ADP"
+                      }
+                    ],
+                    "dependency_relation": "nmod",
+                    "governor": 5,
+                    "index": 3,
+                    "lemma": "シロ",
+                    "raw_word": "シロ",
+                    "upos": "PROPN"
+                  },
+                  {
+                    "children": [],
+                    "dependency_relation": "case",
+                    "governor": 5,
+                    "index": 6,
+                    "lemma": "に",
+                    "raw_word": "に",
+                    "upos": "ADP"
+                  },
+                  {
+                    "children": [],
+                    "dependency_relation": "punct",
+                    "governor": 5,
+                    "index": 7,
+                    "lemma": "、",
+                    "raw_word": "、",
+                    "upos": "PUNCT"
+                  }
+                ],
+                "dependency_relation": "iobj",
+                "governor": 15,
+                "index": 5,
+                "lemma": "筆頭",
+                "raw_word": "筆頭",
+                "upos": "NOUN"
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "dependency_relation": "case",
+                    "governor": 13,
+                    "index": 14,
+                    "lemma": "が",
+                    "raw_word": "が",
+                    "upos": "ADP"
+                  }
+                ],
+                "dependency_relation": "nsubj",
+                "governor": 15,
+                "index": 13,
+                "lemma": "メリーミルク",
+                "raw_word": "メリーミルク",
+                "upos": "PROPN"
+              },
+              {
+                "children": [],
+                "dependency_relation": "aux",
+                "governor": 15,
+                "index": 16,
+                "lemma": "する",
+                "raw_word": "する",
+                "upos": "AUX"
+              }
+            ],
+            "dependency_relation": "acl",
+            "governor": 19,
+            "index": 15,
+            "lemma": "所属",
+            "raw_word": "所属",
+            "upos": "VERB"
+          },
+          {
+            "children": [],
+            "dependency_relation": "compound",
+            "governor": 19,
+            "index": 17,
+            "lemma": "バーチャル",
+            "raw_word": "バーチャル",
+            "upos": "NOUN"
+          },
+          {
+            "children": [],
+            "dependency_relation": "compound",
+            "governor": 19,
+            "index": 18,
+            "lemma": "YouTuber",
+            "raw_word": "YouTuber",
+            "upos": "PROPN"
+          },
+          {
+            "children": [],
+            "dependency_relation": "cop",
+            "governor": 19,
+            "index": 20,
+            "lemma": "だ",
+            "raw_word": "である",
+            "upos": "AUX"
+          },
+          {
+            "children": [],
+            "dependency_relation": "punct",
+            "governor": 19,
+            "index": 21,
+            "lemma": "。",
+            "raw_word": "。",
+            "upos": "PUNCT"
+          }
+        ],
+        "dependency_relation": "root",
+        "governor": 0,
+        "index": 19,
+        "lemma": "プロダクション",
+        "raw_word": "プロダクション",
+        "upos": "NOUN"
+      }
+    ],
+    [
+      {
+        "children": [
+          {
+            "children": [],
+            "dependency_relation": "advmod",
+            "governor": 11,
+            "index": 1,
+            "lemma": "ついでに",
+            "raw_word": "ついでに",
+            "upos": "ADV"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "dependency_relation": "compound",
+                    "governor": 4,
+                    "index": 2,
+                    "lemma": "世界",
+                    "raw_word": "世界",
+                    "upos": "NOUN"
+                  },
+                  {
+                    "children": [],
+                    "dependency_relation": "amod",
+                    "governor": 4,
+                    "index": 3,
+                    "lemma": "初",
+                    "raw_word": "初",
+                    "upos": "NOUN"
+                  }
+                ],
+                "dependency_relation": "nmod",
+                "governor": 6,
+                "index": 4,
+                "lemma": "男性",
+                "raw_word": "男性",
+                "upos": "NOUN"
+              },
+              {
+                "children": [],
+                "dependency_relation": "compound",
+                "governor": 6,
+                "index": 5,
+                "lemma": "バーチャル",
+                "raw_word": "バーチャル",
+                "upos": "NOUN"
+              },
+              {
+                "children": [],
+                "dependency_relation": "case",
+                "governor": 6,
+                "index": 7,
+                "lemma": "の",
+                "raw_word": "の",
+                "upos": "ADP"
+              },
+              {
+                "children": [],
+                "dependency_relation": "mark",
+                "governor": 6,
+                "index": 8,
+                "lemma": "ば",
+                "raw_word": "ば",
+                "upos": "SCONJ"
+              }
+            ],
+            "dependency_relation": "obl",
+            "governor": 11,
+            "index": 6,
+            "lemma": "YouTuber",
+            "raw_word": "YouTuber",
+            "upos": "PROPN"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "dependency_relation": "case",
+                "governor": 9,
+                "index": 10,
+                "lemma": "も",
+                "raw_word": "も",
+                "upos": "ADP"
+              }
+            ],
+            "dependency_relation": "obl",
+            "governor": 11,
+            "index": 9,
+            "lemma": "あちゃる",
+            "raw_word": "あちゃる",
+            "upos": "NOUN"
+          },
+          {
+            "children": [],
+            "dependency_relation": "aux",
+            "governor": 11,
+            "index": 12,
+            "lemma": "する",
+            "raw_word": "し",
+            "upos": "AUX"
+          },
+          {
+            "children": [],
+            "dependency_relation": "mark",
+            "governor": 11,
+            "index": 13,
+            "lemma": "て",
+            "raw_word": "て",
+            "upos": "SCONJ"
+          },
+          {
+            "children": [],
+            "dependency_relation": "aux",
+            "governor": 11,
+            "index": 14,
+            "lemma": "いる",
+            "raw_word": "いる",
+            "upos": "AUX"
+          },
+          {
+            "children": [],
+            "dependency_relation": "punct",
+            "governor": 11,
+            "index": 15,
+            "lemma": "。",
+            "raw_word": "。",
+            "upos": "PUNCT"
+          }
+        ],
+        "dependency_relation": "root",
+        "governor": 0,
+        "index": 11,
+        "lemma": "所属",
+        "raw_word": "所属",
+        "upos": "VERB"
+      }
+    ]
+  ],
+  "type": "dependencies"
+}

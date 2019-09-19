@@ -1,0 +1,5 @@
+py_snlp/venv
+py_snlp/__pycache__
+py_snlp/__pycache__/*
+py_snlp/__pycache__
+*.pyc

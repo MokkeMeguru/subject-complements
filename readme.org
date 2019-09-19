@@ -1,0 +1,2 @@
+pip install -r requirements.txt
+python visualize_nlp/py_snlp/init.py # for install stanfordnlp
