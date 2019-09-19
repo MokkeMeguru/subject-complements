@@ -1,5 +1,5 @@
 [submodule "visualize-nlp"]
-	path = visualize_nlp
+	path = visualize-nlp
 	url = https://github.com/MokkeMeguru/visualize-nlp
 [submodule "visualize_nlp"]
 	path = visualize_nlp
