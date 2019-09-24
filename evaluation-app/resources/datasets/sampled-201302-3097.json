@@ -1,0 +1,2709 @@
+{
+  "path": "./resources/parsed-sample/sampled-201302-3097.json",
+  "article_info": {
+    "updated-date": "20130206042523",
+    "article_id": 300852,
+    "article_title": "岩崎元是",
+    "article_title_yomi": "イワサキモトヨシ",
+    "article_category": "単語",
+    "article_date": "20080630093425"
+  },
+  "sentences": [
+    {
+      "id": 1,
+      "sentence": [
+        {
+          "raw_word": "1986",
+          "index": 1,
+          "lemma": "1986",
+          "upos": "NUM",
+          "governor": 11,
+          "dependency_relation": "nummod"
+        },
+        {
+          "raw_word": "年",
+          "index": 2,
+          "lemma": "年",
+          "upos": "NOUN",
+          "governor": 1,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "、",
+          "index": 3,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 1,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "岩崎",
+          "index": 4,
+          "lemma": "岩崎",
+          "upos": "PROPN",
+          "governor": 5,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "元是",
+          "index": 5,
+          "lemma": "元是",
+          "upos": "PROPN",
+          "governor": 7,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "&",
+          "index": 6,
+          "lemma": "&",
+          "upos": "SYM",
+          "governor": 5,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "WINDY",
+          "index": 7,
+          "lemma": "WINDY",
+          "upos": "PROPN",
+          "governor": 9,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "と",
+          "index": 8,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 7,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "し",
+          "index": 9,
+          "lemma": "する",
+          "upos": "VERB",
+          "governor": 11,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "て",
+          "index": 10,
+          "lemma": "て",
+          "upos": "SCONJ",
+          "governor": 9,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "デビュー",
+          "index": 11,
+          "lemma": "デビュー",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "する",
+          "index": 12,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 11,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "。",
+          "index": 13,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 11,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sentence": [
+        {
+          "raw_word": "バンド",
+          "index": 1,
+          "lemma": "バンド",
+          "upos": "NOUN",
+          "governor": 2,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "当時",
+          "index": 2,
+          "lemma": "当時",
+          "upos": "NOUN",
+          "governor": 17,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "は",
+          "index": 3,
+          "lemma": "は",
+          "upos": "ADP",
+          "governor": 2,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "杉山",
+          "index": 4,
+          "lemma": "杉山",
+          "upos": "PROPN",
+          "governor": 6,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "清貴",
+          "index": 5,
+          "lemma": "清貴",
+          "upos": "PROPN",
+          "governor": 6,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "直系",
+          "index": 6,
+          "lemma": "直系",
+          "upos": "NOUN",
+          "governor": 9,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 7,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 6,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "自作",
+          "index": 8,
+          "lemma": "自作",
+          "upos": "NOUN",
+          "governor": 9,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "曲",
+          "index": 9,
+          "lemma": "曲",
+          "upos": "NOUN",
+          "governor": 11,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 10,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 9,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "シティポップ",
+          "index": 11,
+          "lemma": "シティポップ",
+          "upos": "PROPN",
+          "governor": 17,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "で",
+          "index": 12,
+          "lemma": "で",
+          "upos": "ADP",
+          "governor": 11,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "多く",
+          "index": 13,
+          "lemma": "多く",
+          "upos": "NOUN",
+          "governor": 15,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 14,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 13,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "ファン",
+          "index": 15,
+          "lemma": "ファン",
+          "upos": "NOUN",
+          "governor": 17,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 16,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 15,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "魅了",
+          "index": 17,
+          "lemma": "魅了",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "し",
+          "index": 18,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 17,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "た",
+          "index": 19,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 17,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "。",
+          "index": 20,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 17,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sentence": [
+        {
+          "raw_word": "（",
+          "index": 1,
+          "lemma": "（",
+          "upos": "PROPN",
+          "governor": 4,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "杉",
+          "index": 2,
+          "lemma": "杉",
+          "upos": "PROPN",
+          "governor": 4,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "山",
+          "index": 3,
+          "lemma": "山",
+          "upos": "NOUN",
+          "governor": 4,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "清貴",
+          "index": 4,
+          "lemma": "清貴",
+          "upos": "PROPN",
+          "governor": 11,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "が",
+          "index": 5,
+          "lemma": "が",
+          "upos": "ADP",
+          "governor": 4,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "自作",
+          "index": 6,
+          "lemma": "自作",
+          "upos": "NOUN",
+          "governor": 7,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "曲",
+          "index": 7,
+          "lemma": "曲",
+          "upos": "NOUN",
+          "governor": 11,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 8,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 7,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "CD",
+          "index": 9,
+          "lemma": "CD",
+          "upos": "NOUN",
+          "governor": 11,
+          "dependency_relation": "iobj"
+        },
+        {
+          "raw_word": "に",
+          "index": 10,
+          "lemma": "に",
+          "upos": "ADP",
+          "governor": 9,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "し",
+          "index": 11,
+          "lemma": "する",
+          "upos": "VERB",
+          "governor": 19,
+          "dependency_relation": "csubj"
+        },
+        {
+          "raw_word": "始める",
+          "index": 12,
+          "lemma": "始める",
+          "upos": "AUX",
+          "governor": 11,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "の",
+          "index": 13,
+          "lemma": "の",
+          "upos": "PART",
+          "governor": 11,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "は",
+          "index": 14,
+          "lemma": "は",
+          "upos": "ADP",
+          "governor": 11,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "デビュー",
+          "index": 15,
+          "lemma": "デビュー",
+          "upos": "VERB",
+          "governor": 19,
+          "dependency_relation": "advcl"
+        },
+        {
+          "raw_word": "し",
+          "index": 16,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 15,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "て",
+          "index": 17,
+          "lemma": "て",
+          "upos": "SCONJ",
+          "governor": 15,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "数年",
+          "index": 18,
+          "lemma": "数年",
+          "upos": "NOUN",
+          "governor": 19,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "経っ",
+          "index": 19,
+          "lemma": "経つ",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "て",
+          "index": 20,
+          "lemma": "て",
+          "upos": "SCONJ",
+          "governor": 19,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "から",
+          "index": 21,
+          "lemma": "から",
+          "upos": "ADP",
+          "governor": 19,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "）",
+          "index": 22,
+          "lemma": "）",
+          "upos": "PUNCT",
+          "governor": 19,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "sentence": [
+        {
+          "raw_word": "しかし",
+          "index": 1,
+          "lemma": "しかし",
+          "upos": "CCONJ",
+          "governor": 17,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "、",
+          "index": 2,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 1,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "大人",
+          "index": 3,
+          "lemma": "大人",
+          "upos": "NOUN",
+          "governor": 5,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 4,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 3,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "事情",
+          "index": 5,
+          "lemma": "事情",
+          "upos": "NOUN",
+          "governor": 7,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "と",
+          "index": 6,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 5,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "しがらみ",
+          "index": 7,
+          "lemma": "しがらみ",
+          "upos": "NOUN",
+          "governor": 9,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "で",
+          "index": 8,
+          "lemma": "で",
+          "upos": "ADP",
+          "governor": 7,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "解散",
+          "index": 9,
+          "lemma": "解散",
+          "upos": "VERB",
+          "governor": 17,
+          "dependency_relation": "advcl"
+        },
+        {
+          "raw_word": "、",
+          "index": 10,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 9,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "裏方",
+          "index": 11,
+          "lemma": "裏方",
+          "upos": "NOUN",
+          "governor": 13,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "と",
+          "index": 12,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 11,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "し",
+          "index": 13,
+          "lemma": "する",
+          "upos": "VERB",
+          "governor": 17,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "て",
+          "index": 14,
+          "lemma": "て",
+          "upos": "SCONJ",
+          "governor": 13,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "活動",
+          "index": 15,
+          "lemma": "活動",
+          "upos": "NOUN",
+          "governor": 17,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 16,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 15,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "はじめる",
+          "index": 17,
+          "lemma": "はじめる",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "。",
+          "index": 18,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 17,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "sentence": [
+        {
+          "raw_word": "この",
+          "index": 1,
+          "lemma": "この",
+          "upos": "DET",
+          "governor": 2,
+          "dependency_relation": "det"
+        },
+        {
+          "raw_word": "裏方",
+          "index": 2,
+          "lemma": "裏方",
+          "upos": "NOUN",
+          "governor": 4,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 3,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 2,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "活動",
+          "index": 4,
+          "lemma": "活動",
+          "upos": "NOUN",
+          "governor": 6,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 5,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 4,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "中",
+          "index": 6,
+          "lemma": "中",
+          "upos": "NOUN",
+          "governor": 37,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "で",
+          "index": 7,
+          "lemma": "で",
+          "upos": "ADP",
+          "governor": 6,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 8,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 6,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "自ら",
+          "index": 9,
+          "lemma": "自ら",
+          "upos": "NOUN",
+          "governor": 11,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 10,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 9,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "音楽",
+          "index": 11,
+          "lemma": "音楽",
+          "upos": "NOUN",
+          "governor": 13,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "の",
+          "index": 12,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 11,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "原点",
+          "index": 13,
+          "lemma": "原点",
+          "upos": "NOUN",
+          "governor": 17,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "であっ",
+          "index": 14,
+          "lemma": "だ",
+          "upos": "AUX",
+          "governor": 13,
+          "dependency_relation": "cop"
+        },
+        {
+          "raw_word": "た",
+          "index": 15,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 13,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "大滝",
+          "index": 16,
+          "lemma": "大滝",
+          "upos": "PROPN",
+          "governor": 17,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "詠一",
+          "index": 17,
+          "lemma": "詠一",
+          "upos": "PROPN",
+          "governor": 20,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "や",
+          "index": 18,
+          "lemma": "や",
+          "upos": "ADP",
+          "governor": 17,
+          "dependency_relation": "cc"
+        },
+        {
+          "raw_word": "山下",
+          "index": 19,
+          "lemma": "山下",
+          "upos": "PROPN",
+          "governor": 20,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "達郎",
+          "index": 20,
+          "lemma": "達郎",
+          "upos": "PROPN",
+          "governor": 23,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "へ",
+          "index": 21,
+          "lemma": "へ",
+          "upos": "ADP",
+          "governor": 20,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "の",
+          "index": 22,
+          "lemma": "の",
+          "upos": "PART",
+          "governor": 20,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "リスペクト",
+          "index": 23,
+          "lemma": "リスペクト",
+          "upos": "NOUN",
+          "governor": 25,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 24,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 23,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "込め",
+          "index": 25,
+          "lemma": "込める",
+          "upos": "VERB",
+          "governor": 27,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "た",
+          "index": 26,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 25,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "エコーサウンド",
+          "index": 27,
+          "lemma": "エコーサウンド",
+          "upos": "PROPN",
+          "governor": 34,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 28,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 27,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 29,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 27,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "クライアント",
+          "index": 30,
+          "lemma": "クライアント",
+          "upos": "NOUN",
+          "governor": 32,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 31,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 30,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "顔色",
+          "index": 32,
+          "lemma": "顔色",
+          "upos": "NOUN",
+          "governor": 34,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 33,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 32,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "うかが",
+          "index": 34,
+          "lemma": "うかがう",
+          "upos": "VERB",
+          "governor": 35,
+          "dependency_relation": "advcl"
+        },
+        {
+          "raw_word": "い",
+          "index": 35,
+          "lemma": "いる",
+          "upos": "VERB",
+          "governor": 37,
+          "dependency_relation": "advcl"
+        },
+        {
+          "raw_word": "つつ",
+          "index": 36,
+          "lemma": "つつ",
+          "upos": "SCONJ",
+          "governor": 35,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "展開",
+          "index": 37,
+          "lemma": "展開",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "し",
+          "index": 38,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 37,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "始める",
+          "index": 39,
+          "lemma": "始める",
+          "upos": "AUX",
+          "governor": 37,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "。",
+          "index": 40,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 37,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "sentence": [
+        {
+          "raw_word": "それ",
+          "index": 1,
+          "lemma": "それ",
+          "upos": "PRON",
+          "governor": 4,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "が",
+          "index": 2,
+          "lemma": "が",
+          "upos": "ADP",
+          "governor": 1,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "特に",
+          "index": 3,
+          "lemma": "特に",
+          "upos": "ADV",
+          "governor": 4,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "際立っ",
+          "index": 4,
+          "lemma": "際立つ",
+          "upos": "VERB",
+          "governor": 6,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "た",
+          "index": 5,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 4,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "もの",
+          "index": 6,
+          "lemma": "もの",
+          "upos": "NOUN",
+          "governor": 8,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "と",
+          "index": 7,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 6,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "なっ",
+          "index": 8,
+          "lemma": "なる",
+          "upos": "VERB",
+          "governor": 27,
+          "dependency_relation": "csubj"
+        },
+        {
+          "raw_word": "た",
+          "index": 9,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 8,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "の",
+          "index": 10,
+          "lemma": "の",
+          "upos": "PART",
+          "governor": 8,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "が",
+          "index": 11,
+          "lemma": "が",
+          "upos": "ADP",
+          "governor": 8,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 12,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 8,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "キリンビール",
+          "index": 13,
+          "lemma": "キリンビール",
+          "upos": "PROPN",
+          "governor": 15,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 14,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 13,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "ため",
+          "index": 15,
+          "lemma": "ため",
+          "upos": "NOUN",
+          "governor": 17,
+          "dependency_relation": "iobj"
+        },
+        {
+          "raw_word": "に",
+          "index": 16,
+          "lemma": "に",
+          "upos": "ADP",
+          "governor": 15,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "提供",
+          "index": 17,
+          "lemma": "提供",
+          "upos": "VERB",
+          "governor": 22,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "し",
+          "index": 18,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 17,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "た",
+          "index": 19,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 17,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "細川",
+          "index": 20,
+          "lemma": "細川",
+          "upos": "PROPN",
+          "governor": 22,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "たかし",
+          "index": 21,
+          "lemma": "たかしむ",
+          "upos": "PROPN",
+          "governor": 22,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "歌唱",
+          "index": 22,
+          "lemma": "歌唱",
+          "upos": "NOUN",
+          "governor": 25,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "「",
+          "index": 23,
+          "lemma": "「",
+          "upos": "PUNCT",
+          "governor": 25,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "応援",
+          "index": 24,
+          "lemma": "応援",
+          "upos": "NOUN",
+          "governor": 25,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "歌",
+          "index": 25,
+          "lemma": "歌",
+          "upos": "NOUN",
+          "governor": 27,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "、",
+          "index": 26,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 25,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "いき",
+          "index": 27,
+          "lemma": "いきる",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "ます",
+          "index": 28,
+          "lemma": "ます",
+          "upos": "AUX",
+          "governor": 27,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "」",
+          "index": 29,
+          "lemma": "」",
+          "upos": "PUNCT",
+          "governor": 27,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "であっ",
+          "index": 30,
+          "lemma": "だ",
+          "upos": "AUX",
+          "governor": 27,
+          "dependency_relation": "cop"
+        },
+        {
+          "raw_word": "た",
+          "index": 31,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 27,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "。",
+          "index": 32,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 27,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "sentence": [
+        {
+          "raw_word": "その",
+          "index": 1,
+          "lemma": "その",
+          "upos": "DET",
+          "governor": 2,
+          "dependency_relation": "det"
+        },
+        {
+          "raw_word": "中",
+          "index": 2,
+          "lemma": "中",
+          "upos": "NOUN",
+          "governor": 45,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "で",
+          "index": 3,
+          "lemma": "で",
+          "upos": "ADP",
+          "governor": 2,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 4,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 2,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "ときめき",
+          "index": 5,
+          "lemma": "ときめき",
+          "upos": "VERB",
+          "governor": 25,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "メモリアル",
+          "index": 6,
+          "lemma": "メモリアル",
+          "upos": "NOUN",
+          "governor": 7,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "シリーズ",
+          "index": 7,
+          "lemma": "シリーズ",
+          "upos": "NOUN",
+          "governor": 12,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "や",
+          "index": 8,
+          "lemma": "や",
+          "upos": "ADP",
+          "governor": 7,
+          "dependency_relation": "cc"
+        },
+        {
+          "raw_word": "とっと",
+          "index": 9,
+          "lemma": "とっと",
+          "upos": "ADV",
+          "governor": 10,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "こ",
+          "index": 10,
+          "lemma": "来る",
+          "upos": "VERB",
+          "governor": 12,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "ハム",
+          "index": 11,
+          "lemma": "ハム",
+          "upos": "PROPN",
+          "governor": 12,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "太郎",
+          "index": 12,
+          "lemma": "太郎",
+          "upos": "PROPN",
+          "governor": 14,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 13,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 12,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "キャラクターソング",
+          "index": 14,
+          "lemma": "キャラクターソング",
+          "upos": "NOUN",
+          "governor": 21,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "といった",
+          "index": 15,
+          "lemma": "といった",
+          "upos": "ADP",
+          "governor": 14,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "一般的",
+          "index": 16,
+          "lemma": "一般的",
+          "upos": "ADJ",
+          "governor": 20,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "に",
+          "index": 17,
+          "lemma": "だ",
+          "upos": "AUX",
+          "governor": 16,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "注目度",
+          "index": 18,
+          "lemma": "注目度",
+          "upos": "NOUN",
+          "governor": 20,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "の",
+          "index": 19,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 18,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "高い",
+          "index": 20,
+          "lemma": "高い",
+          "upos": "ADJ",
+          "governor": 21,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "楽曲",
+          "index": 21,
+          "lemma": "楽曲",
+          "upos": "NOUN",
+          "governor": 25,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "で",
+          "index": 22,
+          "lemma": "で",
+          "upos": "ADP",
+          "governor": 21,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "エコーサウンド",
+          "index": 23,
+          "lemma": "エコーサウンド",
+          "upos": "PROPN",
+          "governor": 25,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 24,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 23,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "展開",
+          "index": 25,
+          "lemma": "展開",
+          "upos": "VERB",
+          "governor": 40,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "する",
+          "index": 26,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 25,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "こと",
+          "index": 27,
+          "lemma": "こと",
+          "upos": "NOUN",
+          "governor": 25,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "により",
+          "index": 28,
+          "lemma": "により",
+          "upos": "ADP",
+          "governor": 25,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 29,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 25,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "バンド",
+          "index": 30,
+          "lemma": "バンド",
+          "upos": "NOUN",
+          "governor": 31,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "時代",
+          "index": 31,
+          "lemma": "時代",
+          "upos": "NOUN",
+          "governor": 33,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 32,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 31,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "知ら",
+          "index": 33,
+          "lemma": "知る",
+          "upos": "VERB",
+          "governor": 37,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "ない",
+          "index": 34,
+          "lemma": "ない",
+          "upos": "AUX",
+          "governor": 33,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "シティポップ",
+          "index": 35,
+          "lemma": "シティポップ",
+          "upos": "PROPN",
+          "governor": 37,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "探求",
+          "index": 36,
+          "lemma": "探求",
+          "upos": "NOUN",
+          "governor": 37,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "家",
+          "index": 37,
+          "lemma": "家",
+          "upos": "NOUN",
+          "governor": 40,
+          "dependency_relation": "iobj"
+        },
+        {
+          "raw_word": "に",
+          "index": 38,
+          "lemma": "に",
+          "upos": "ADP",
+          "governor": 37,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "再",
+          "index": 39,
+          "lemma": "再",
+          "upos": "NOUN",
+          "governor": 40,
+          "dependency_relation": "amod"
+        },
+        {
+          "raw_word": "発見",
+          "index": 40,
+          "lemma": "発見",
+          "upos": "VERB",
+          "governor": 45,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "さ",
+          "index": 41,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 40,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "れる",
+          "index": 42,
+          "lemma": "れる",
+          "upos": "AUX",
+          "governor": 40,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "こと",
+          "index": 43,
+          "lemma": "こと",
+          "upos": "NOUN",
+          "governor": 40,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "と",
+          "index": 44,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 43,
+          "dependency_relation": "fixed"
+        },
+        {
+          "raw_word": "なっ",
+          "index": 45,
+          "lemma": "なる",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "た",
+          "index": 46,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 45,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "。",
+          "index": 47,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 45,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "sentence": [
+        {
+          "raw_word": "また",
+          "index": 1,
+          "lemma": "また",
+          "upos": "CCONJ",
+          "governor": 31,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "、",
+          "index": 2,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 1,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "伊豆田洋",
+          "index": 3,
+          "lemma": "伊豆田洋",
+          "upos": "PROPN",
+          "governor": 4,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "之",
+          "index": 4,
+          "lemma": "之",
+          "upos": "PROPN",
+          "governor": 8,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 5,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 4,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "ソロ",
+          "index": 6,
+          "lemma": "ソロ",
+          "upos": "NOUN",
+          "governor": 8,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "・",
+          "index": 7,
+          "lemma": "・",
+          "upos": "SYM",
+          "governor": 6,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "アルバム",
+          "index": 8,
+          "lemma": "アルバム",
+          "upos": "NOUN",
+          "governor": 10,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "「",
+          "index": 9,
+          "lemma": "「",
+          "upos": "PUNCT",
+          "governor": 10,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "Face",
+          "index": 10,
+          "lemma": "Face",
+          "upos": "PROPN",
+          "governor": 15,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "」",
+          "index": 11,
+          "lemma": "」",
+          "upos": "PUNCT",
+          "governor": 10,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "で",
+          "index": 12,
+          "lemma": "で",
+          "upos": "ADP",
+          "governor": 10,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "の",
+          "index": 13,
+          "lemma": "の",
+          "upos": "PART",
+          "governor": 10,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "伊豆",
+          "index": 14,
+          "lemma": "伊豆",
+          "upos": "PROPN",
+          "governor": 15,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "田",
+          "index": 15,
+          "lemma": "田",
+          "upos": "PROPN",
+          "governor": 19,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "と",
+          "index": 16,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 15,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "の",
+          "index": 17,
+          "lemma": "の",
+          "upos": "PART",
+          "governor": 15,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "共同",
+          "index": 18,
+          "lemma": "共同",
+          "upos": "NOUN",
+          "governor": 19,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "作業",
+          "index": 19,
+          "lemma": "作業",
+          "upos": "NOUN",
+          "governor": 31,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "は",
+          "index": 20,
+          "lemma": "は",
+          "upos": "ADP",
+          "governor": 19,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 21,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 19,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "シティポップ",
+          "index": 22,
+          "lemma": "シティポップ",
+          "upos": "PROPN",
+          "governor": 26,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 23,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 22,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "保守",
+          "index": 24,
+          "lemma": "保守",
+          "upos": "NOUN",
+          "governor": 26,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "本流",
+          "index": 25,
+          "lemma": "本流",
+          "upos": "NOUN",
+          "governor": 26,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "側",
+          "index": 26,
+          "lemma": "側",
+          "upos": "NOUN",
+          "governor": 29,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "から",
+          "index": 27,
+          "lemma": "から",
+          "upos": "ADP",
+          "governor": 26,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "も",
+          "index": 28,
+          "lemma": "も",
+          "upos": "ADP",
+          "governor": 26,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "認め",
+          "index": 29,
+          "lemma": "認める",
+          "upos": "VERB",
+          "governor": 31,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "られる",
+          "index": 30,
+          "lemma": "られる",
+          "upos": "AUX",
+          "governor": 29,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "もの",
+          "index": 31,
+          "lemma": "もの",
+          "upos": "NOUN",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "であっ",
+          "index": 32,
+          "lemma": "だ",
+          "upos": "AUX",
+          "governor": 31,
+          "dependency_relation": "cop"
+        },
+        {
+          "raw_word": "た",
+          "index": 33,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 31,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "。",
+          "index": 34,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 31,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "sentence": [
+        {
+          "raw_word": "そんな",
+          "index": 1,
+          "lemma": "そんな",
+          "upos": "ADJ",
+          "governor": 2,
+          "dependency_relation": "amod"
+        },
+        {
+          "raw_word": "中",
+          "index": 2,
+          "lemma": "中",
+          "upos": "NOUN",
+          "governor": 3,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "発表",
+          "index": 3,
+          "lemma": "発表",
+          "upos": "VERB",
+          "governor": 7,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "さ",
+          "index": 4,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 3,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "れ",
+          "index": 5,
+          "lemma": "れる",
+          "upos": "AUX",
+          "governor": 3,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "た",
+          "index": 6,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 3,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "アルバム",
+          "index": 7,
+          "lemma": "アルバム",
+          "upos": "NOUN",
+          "governor": 9,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "「",
+          "index": 8,
+          "lemma": "「",
+          "upos": "PUNCT",
+          "governor": 9,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "FORALONGTIME",
+          "index": 9,
+          "lemma": "FORALONGTIME",
+          "upos": "PROPN",
+          "governor": 32,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "」",
+          "index": 10,
+          "lemma": "」",
+          "upos": "PUNCT",
+          "governor": 9,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "は",
+          "index": 11,
+          "lemma": "は",
+          "upos": "ADP",
+          "governor": 9,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "バンド",
+          "index": 12,
+          "lemma": "バンド",
+          "upos": "NOUN",
+          "governor": 13,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "時代",
+          "index": 13,
+          "lemma": "時代",
+          "upos": "NOUN",
+          "governor": 16,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "から",
+          "index": 14,
+          "lemma": "から",
+          "upos": "ADP",
+          "governor": 13,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "の",
+          "index": 15,
+          "lemma": "の",
+          "upos": "PART",
+          "governor": 13,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "ファン",
+          "index": 16,
+          "lemma": "ファン",
+          "upos": "NOUN",
+          "governor": 18,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "と",
+          "index": 17,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 16,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "アニソン",
+          "index": 18,
+          "lemma": "アニソン",
+          "upos": "PROPN",
+          "governor": 22,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "から",
+          "index": 19,
+          "lemma": "から",
+          "upos": "ADP",
+          "governor": 18,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "彼",
+          "index": 20,
+          "lemma": "彼",
+          "upos": "PRON",
+          "governor": 22,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 21,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 20,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "発見",
+          "index": 22,
+          "lemma": "発見",
+          "upos": "VERB",
+          "governor": 25,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "し",
+          "index": 23,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 22,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "た",
+          "index": 24,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 22,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "ファン",
+          "index": 25,
+          "lemma": "ファン",
+          "upos": "NOUN",
+          "governor": 27,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 26,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 25,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "双方",
+          "index": 27,
+          "lemma": "双方",
+          "upos": "NOUN",
+          "governor": 32,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "から",
+          "index": 28,
+          "lemma": "から",
+          "upos": "ADP",
+          "governor": 27,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "熱い",
+          "index": 29,
+          "lemma": "熱い",
+          "upos": "ADJ",
+          "governor": 30,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "支持",
+          "index": 30,
+          "lemma": "支持",
+          "upos": "NOUN",
+          "governor": 32,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 31,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 30,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "集め",
+          "index": 32,
+          "lemma": "集める",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "た",
+          "index": 33,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 32,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "。",
+          "index": 34,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 32,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "sentence": [
+        {
+          "raw_word": "また",
+          "index": 1,
+          "lemma": "また",
+          "upos": "CCONJ",
+          "governor": 60,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "、",
+          "index": 2,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 1,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "彼",
+          "index": 3,
+          "lemma": "彼",
+          "upos": "PRON",
+          "governor": 5,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 4,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 3,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "歌唱",
+          "index": 5,
+          "lemma": "歌唱",
+          "upos": "NOUN",
+          "governor": 11,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "で",
+          "index": 6,
+          "lemma": "で",
+          "upos": "ADP",
+          "governor": 5,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "熱狂的",
+          "index": 7,
+          "lemma": "熱狂的",
+          "upos": "ADJ",
+          "governor": 9,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "な",
+          "index": 8,
+          "lemma": "だ",
+          "upos": "AUX",
+          "governor": 7,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "ファン",
+          "index": 9,
+          "lemma": "ファン",
+          "upos": "NOUN",
+          "governor": 11,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "が",
+          "index": 10,
+          "lemma": "が",
+          "upos": "ADP",
+          "governor": 9,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "多い",
+          "index": 11,
+          "lemma": "多い",
+          "upos": "ADJ",
+          "governor": 17,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "機動",
+          "index": 12,
+          "lemma": "機動",
+          "upos": "NOUN",
+          "governor": 17,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "戦士",
+          "index": 13,
+          "lemma": "戦士",
+          "upos": "NOUN",
+          "governor": 17,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "V",
+          "index": 14,
+          "lemma": "V",
+          "upos": "PROPN",
+          "governor": 17,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "ガンダム",
+          "index": 15,
+          "lemma": "ガンダム",
+          "upos": "PROPN",
+          "governor": 17,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "挿入",
+          "index": 16,
+          "lemma": "挿入",
+          "upos": "NOUN",
+          "governor": 17,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "歌",
+          "index": 17,
+          "lemma": "歌",
+          "upos": "NOUN",
+          "governor": 19,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "「",
+          "index": 18,
+          "lemma": "「",
+          "upos": "PUNCT",
+          "governor": 19,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "いくつも",
+          "index": 19,
+          "lemma": "いくつも",
+          "upos": "ADV",
+          "governor": 21,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 20,
+          "lemma": "の",
+          "upos": "PART",
+          "governor": 19,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "愛",
+          "index": 21,
+          "lemma": "愛",
+          "upos": "NOUN",
+          "governor": 23,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 22,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 21,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "かさね",
+          "index": 23,
+          "lemma": "かさね",
+          "upos": "VERB",
+          "governor": 60,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "て",
+          "index": 24,
+          "lemma": "て",
+          "upos": "SCONJ",
+          "governor": 23,
+          "dependency_relation": "mark"
+        },
+        {
+          "raw_word": "」",
+          "index": 25,
+          "lemma": "」",
+          "upos": "PUNCT",
+          "governor": 23,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "は",
+          "index": 26,
+          "lemma": "は",
+          "upos": "ADP",
+          "governor": 23,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 27,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 23,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "もともと",
+          "index": 28,
+          "lemma": "もともと",
+          "upos": "ADV",
+          "governor": 35,
+          "dependency_relation": "advmod"
+        },
+        {
+          "raw_word": "作曲家",
+          "index": 29,
+          "lemma": "作曲家",
+          "upos": "NOUN",
+          "governor": 31,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "による",
+          "index": 30,
+          "lemma": "による",
+          "upos": "ADP",
+          "governor": 29,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "仮歌",
+          "index": 31,
+          "lemma": "仮歌",
+          "upos": "NOUN",
+          "governor": 33,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 32,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 31,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "つもり",
+          "index": 33,
+          "lemma": "つもり",
+          "upos": "NOUN",
+          "governor": 35,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "で",
+          "index": 34,
+          "lemma": "で",
+          "upos": "ADP",
+          "governor": 33,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "録音",
+          "index": 35,
+          "lemma": "録音",
+          "upos": "VERB",
+          "governor": 38,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "し",
+          "index": 36,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 35,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "た",
+          "index": 37,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 35,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "もの",
+          "index": 38,
+          "lemma": "もの",
+          "upos": "NOUN",
+          "governor": 46,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "が",
+          "index": 39,
+          "lemma": "が",
+          "upos": "ADP",
+          "governor": 38,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 40,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 38,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "富野由",
+          "index": 41,
+          "lemma": "富野由",
+          "upos": "PROPN",
+          "governor": 42,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "悠",
+          "index": 42,
+          "lemma": "悠",
+          "upos": "PROPN",
+          "governor": 44,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "季",
+          "index": 43,
+          "lemma": "季",
+          "upos": "PROPN",
+          "governor": 44,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "監督",
+          "index": 44,
+          "lemma": "監督",
+          "upos": "NOUN",
+          "governor": 46,
+          "dependency_relation": "iobj"
+        },
+        {
+          "raw_word": "に",
+          "index": 45,
+          "lemma": "に",
+          "upos": "ADP",
+          "governor": 44,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "認め",
+          "index": 46,
+          "lemma": "認める",
+          "upos": "VERB",
+          "governor": 53,
+          "dependency_relation": "advcl"
+        },
+        {
+          "raw_word": "られ",
+          "index": 47,
+          "lemma": "られる",
+          "upos": "AUX",
+          "governor": 46,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "その",
+          "index": 48,
+          "lemma": "その",
+          "upos": "DET",
+          "governor": 49,
+          "dependency_relation": "det"
+        },
+        {
+          "raw_word": "まま",
+          "index": 49,
+          "lemma": "まま",
+          "upos": "NOUN",
+          "governor": 51,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 50,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 49,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "ヴォーカル",
+          "index": 51,
+          "lemma": "ヴォーカル",
+          "upos": "NOUN",
+          "governor": 53,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "が",
+          "index": 52,
+          "lemma": "が",
+          "upos": "ADP",
+          "governor": 51,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "使用",
+          "index": 53,
+          "lemma": "使用",
+          "upos": "VERB",
+          "governor": 57,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "さ",
+          "index": 54,
+          "lemma": "する",
+          "upos": "AUX",
+          "governor": 53,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "れ",
+          "index": 55,
+          "lemma": "れる",
+          "upos": "AUX",
+          "governor": 53,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "た",
+          "index": 56,
+          "lemma": "た",
+          "upos": "AUX",
+          "governor": 53,
+          "dependency_relation": "aux"
+        },
+        {
+          "raw_word": "もの",
+          "index": 57,
+          "lemma": "もの",
+          "upos": "NOUN",
+          "governor": 60,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "だ",
+          "index": 58,
+          "lemma": "だ",
+          "upos": "AUX",
+          "governor": 57,
+          "dependency_relation": "cop"
+        },
+        {
+          "raw_word": "と",
+          "index": 59,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 57,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "いう",
+          "index": 60,
+          "lemma": "いう",
+          "upos": "VERB",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "。",
+          "index": 61,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 60,
+          "dependency_relation": "punct"
+        }
+      ]
+    }
+  ],
+  "raw_sentences": [
+    {
+      "id": 1,
+      "sentence": "1986年、岩崎元是&WINDYとしてデビューする。"
+    },
+    {
+      "id": 2,
+      "sentence": "バンド当時は杉山清貴直系の自作曲のシティポップで多くのファンを魅了した。"
+    },
+    {
+      "id": 3,
+      "sentence": "（杉山清貴が自作曲をCDにし始めるのはデビューして数年経ってから）"
+    },
+    {
+      "id": 4,
+      "sentence": "しかし、大人の事情としがらみで解散、裏方として活動をはじめる。"
+    },
+    {
+      "id": 5,
+      "sentence": "この裏方の活動の中で、自らの音楽の原点であった大滝詠一や山下達郎へのリスペクトを込めたエコーサウンドを、クライアントの顔色をうかがいつつ展開し始める。"
+    },
+    {
+      "id": 6,
+      "sentence": "それが特に際立ったものとなったのが、キリンビールのために提供した細川たかし歌唱「応援歌、いきます」であった。"
+    },
+    {
+      "id": 7,
+      "sentence": "その中で、ときめきメモリアルシリーズやとっとこハム太郎のキャラクターソングといった一般的に注目度の高い楽曲でエコーサウンドを展開することにより、バンド時代を知らないシティポップ探求家に再発見されることとなった。"
+    },
+    {
+      "id": 8,
+      "sentence": "また、伊豆田洋之のソロ・アルバム「Face」での伊豆田との共同作業は、シティポップの保守本流側からも認められるものであった。"
+    },
+    {
+      "id": 9,
+      "sentence": "そんな中発表されたアルバム「FORALONGTIME」はバンド時代からのファンとアニソンから彼を発見したファンの双方から熱い支持を集めた。"
+    },
+    {
+      "id": 10,
+      "sentence": "また、彼の歌唱で熱狂的なファンが多い機動戦士Vガンダム挿入歌「いくつもの愛をかさねて」は、もともと作曲家による仮歌のつもりで録音したものが、富野由悠季監督に認められそのままのヴォーカルが使用されたものだという。"
+    }
+  ],
+  "lack_subject_sentences": [
+    {
+      "id": 1,
+      "sentence": "1986年、岩崎元是&WINDYとしてデビューする。"
+    },
+    {
+      "id": 4,
+      "sentence": "しかし、大人の事情としがらみで解散、裏方として活動をはじめる。"
+    },
+    {
+      "id": 5,
+      "sentence": "この裏方の活動の中で、自らの音楽の原点であった大滝詠一や山下達郎へのリスペクトを込めたエコーサウンドを、クライアントの顔色をうかがいつつ展開し始める。"
+    },
+    {
+      "id": 7,
+      "sentence": "その中で、ときめきメモリアルシリーズやとっとこハム太郎のキャラクターソングといった一般的に注目度の高い楽曲でエコーサウンドを展開することにより、バンド時代を知らないシティポップ探求家に再発見されることとなった。"
+    }
+  ],
+  "complement_subject_sentences": [
+    {
+      "id": 1,
+      "sentence": "岩崎元是は、1986年、岩崎元是&WINDYとしてデビューする。"
+    },
+    {
+      "id": 4,
+      "sentence": "岩崎元是は、しかし、大人の事情としがらみで解散、裏方として活動をはじめる。"
+    },
+    {
+      "id": 5,
+      "sentence": "岩崎元是は、この裏方の活動の中で、自らの音楽の原点であった大滝詠一や山下達郎へのリスペクトを込めたエコーサウンドを、クライアントの顔色をうかがいつつ展開し始める。"
+    },
+    {
+      "id": 7,
+      "sentence": "岩崎元是は、その中で、ときめきメモリアルシリーズやとっとこハム太郎のキャラクターソングといった一般的に注目度の高い楽曲でエコーサウンドを展開することにより、バンド時代を知らないシティポップ探求家に再発見されることとなった。"
+    }
+  ]
+}

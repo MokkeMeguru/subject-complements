@@ -1,16 +1,17 @@
 (ns evaluation-app.routes.services
   (:require
-    [reitit.swagger :as swagger]
-    [reitit.swagger-ui :as swagger-ui]
-    [reitit.ring.coercion :as coercion]
-    [reitit.coercion.spec :as spec-coercion]
-    [reitit.ring.middleware.muuntaja :as muuntaja]
-    [reitit.ring.middleware.multipart :as multipart]
-    [reitit.ring.middleware.parameters :as parameters]
-    [evaluation-app.middleware.formats :as formats]
-    [evaluation-app.middleware.exception :as exception]
-    [ring.util.http-response :refer :all]
-    [clojure.java.io :as io]))
+   [reitit.swagger :as swagger]
+   [reitit.swagger-ui :as swagger-ui]
+   [reitit.ring.coercion :as coercion]
+   [reitit.coercion.spec :as spec-coercion]
+   [reitit.ring.middleware.muuntaja :as muuntaja]
+   [reitit.ring.middleware.multipart :as multipart]
+   [reitit.ring.middleware.parameters :as parameters]
+   [evaluation-app.middleware.formats :as formats]
+   [evaluation-app.middleware.exception :as exception]
+   [ring.util.http-response :refer :all]
+   [clojure.java.io :as io]
+   [evaluation-app.services.evaluation :as ev]))
 
 (defn service-routes []
   ["/api"
@@ -44,12 +45,11 @@
 
     ["/api-docs/*"
      {:get (swagger-ui/create-swagger-ui-handler
-             {:url "/api/swagger.json"
-              :config {:validator-url nil}})}]]
+            {:url "/api/swagger.json"
+             :config {:validator-url nil}})}]]
 
    ["/ping"
     {:get (constantly (ok {:message "pong"}))}]
-   
 
    ["/math"
     {:swagger {:tags ["math"]}}
@@ -79,6 +79,11 @@
                         {:status 200
                          :body {:name (:filename file)
                                 :size (:size file)}})}}]
+    ["/datasets"
+     {:get {:summary "dataset list"
+            :handler (fn [_]
+                       {:status 200
+                        :body (ev/get-datasets) })}}]
 
     ["/download"
      {:get {:summary "downloads a file"
