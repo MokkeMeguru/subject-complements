@@ -13,6 +13,171 @@
       "id": 1,
       "sentence": [
         {
+          "raw_word": "岩崎元",
+          "index": 1,
+          "lemma": "岩崎元",
+          "upos": "PROPN",
+          "governor": 2,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "是と",
+          "index": 2,
+          "lemma": "是と",
+          "upos": "NOUN",
+          "governor": 18,
+          "dependency_relation": "nsubj"
+        },
+        {
+          "raw_word": "は",
+          "index": 3,
+          "lemma": "は",
+          "upos": "ADP",
+          "governor": 2,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "、",
+          "index": 4,
+          "lemma": "、",
+          "upos": "PUNCT",
+          "governor": 2,
+          "dependency_relation": "punct"
+        },
+        {
+          "raw_word": "シティポップ",
+          "index": 5,
+          "lemma": "シティポップ",
+          "upos": "PROPN",
+          "governor": 7,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "と",
+          "index": 6,
+          "lemma": "と",
+          "upos": "ADP",
+          "governor": 5,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "アニソン",
+          "index": 7,
+          "lemma": "アニソン",
+          "upos": "PROPN",
+          "governor": 9,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "の",
+          "index": 8,
+          "lemma": "の",
+          "upos": "ADP",
+          "governor": 7,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "間",
+          "index": 9,
+          "lemma": "間",
+          "upos": "NOUN",
+          "governor": 13,
+          "dependency_relation": "obj"
+        },
+        {
+          "raw_word": "を",
+          "index": 10,
+          "lemma": "を",
+          "upos": "ADP",
+          "governor": 9,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "縦横",
+          "index": 11,
+          "lemma": "縦横",
+          "upos": "NOUN",
+          "governor": 13,
+          "dependency_relation": "iobj"
+        },
+        {
+          "raw_word": "に",
+          "index": 12,
+          "lemma": "に",
+          "upos": "ADP",
+          "governor": 11,
+          "dependency_relation": "case"
+        },
+        {
+          "raw_word": "飛び回る",
+          "index": 13,
+          "lemma": "飛び回る",
+          "upos": "VERB",
+          "governor": 18,
+          "dependency_relation": "acl"
+        },
+        {
+          "raw_word": "作曲家",
+          "index": 14,
+          "lemma": "作曲家",
+          "upos": "NOUN",
+          "governor": 16,
+          "dependency_relation": "nmod"
+        },
+        {
+          "raw_word": "・",
+          "index": 15,
+          "lemma": "・",
+          "upos": "SYM",
+          "governor": 14,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "アレンジャー",
+          "index": 16,
+          "lemma": "アレンジャー",
+          "upos": "NOUN",
+          "governor": 18,
+          "dependency_relation": "obl"
+        },
+        {
+          "raw_word": "・",
+          "index": 17,
+          "lemma": "・",
+          "upos": "SYM",
+          "governor": 16,
+          "dependency_relation": "compound"
+        },
+        {
+          "raw_word": "歌手",
+          "index": 18,
+          "lemma": "歌手",
+          "upos": "NOUN",
+          "governor": 0,
+          "dependency_relation": "root"
+        },
+        {
+          "raw_word": "である",
+          "index": 19,
+          "lemma": "だ",
+          "upos": "AUX",
+          "governor": 18,
+          "dependency_relation": "cop"
+        },
+        {
+          "raw_word": "。",
+          "index": 20,
+          "lemma": "。",
+          "upos": "PUNCT",
+          "governor": 18,
+          "dependency_relation": "punct"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sentence": [
+        {
           "raw_word": "1986",
           "index": 1,
           "lemma": "1986",
@@ -119,7 +284,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "sentence": [
         {
           "raw_word": "バンド",
@@ -284,7 +449,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "sentence": [
         {
           "raw_word": "（",
@@ -465,7 +630,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "sentence": [
         {
           "raw_word": "しかし",
@@ -614,7 +779,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "sentence": [
         {
           "raw_word": "この",
@@ -939,7 +1104,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "sentence": [
         {
           "raw_word": "それ",
@@ -1200,7 +1365,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "sentence": [
         {
           "raw_word": "その",
@@ -1581,7 +1746,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "sentence": [
         {
           "raw_word": "また",
@@ -1858,7 +2023,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "sentence": [
         {
           "raw_word": "そんな",
@@ -2135,7 +2300,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "sentence": [
         {
           "raw_word": "また",
@@ -2631,78 +2796,82 @@
   "raw_sentences": [
     {
       "id": 1,
-      "sentence": "1986年、岩崎元是&WINDYとしてデビューする。"
+      "sentence": "岩崎元是とは、シティポップとアニソンの間を縦横に飛び回る作曲家・アレンジャー・歌手である。"
     },
     {
       "id": 2,
-      "sentence": "バンド当時は杉山清貴直系の自作曲のシティポップで多くのファンを魅了した。"
+      "sentence": "1986年、岩崎元是&WINDYとしてデビューする。"
     },
     {
       "id": 3,
-      "sentence": "（杉山清貴が自作曲をCDにし始めるのはデビューして数年経ってから）"
+      "sentence": "バンド当時は杉山清貴直系の自作曲のシティポップで多くのファンを魅了した。"
     },
     {
       "id": 4,
-      "sentence": "しかし、大人の事情としがらみで解散、裏方として活動をはじめる。"
+      "sentence": "（杉山清貴が自作曲をCDにし始めるのはデビューして数年経ってから）"
     },
     {
       "id": 5,
-      "sentence": "この裏方の活動の中で、自らの音楽の原点であった大滝詠一や山下達郎へのリスペクトを込めたエコーサウンドを、クライアントの顔色をうかがいつつ展開し始める。"
+      "sentence": "しかし、大人の事情としがらみで解散、裏方として活動をはじめる。"
     },
     {
       "id": 6,
-      "sentence": "それが特に際立ったものとなったのが、キリンビールのために提供した細川たかし歌唱「応援歌、いきます」であった。"
+      "sentence": "この裏方の活動の中で、自らの音楽の原点であった大滝詠一や山下達郎へのリスペクトを込めたエコーサウンドを、クライアントの顔色をうかがいつつ展開し始める。"
     },
     {
       "id": 7,
-      "sentence": "その中で、ときめきメモリアルシリーズやとっとこハム太郎のキャラクターソングといった一般的に注目度の高い楽曲でエコーサウンドを展開することにより、バンド時代を知らないシティポップ探求家に再発見されることとなった。"
+      "sentence": "それが特に際立ったものとなったのが、キリンビールのために提供した細川たかし歌唱「応援歌、いきます」であった。"
     },
     {
       "id": 8,
-      "sentence": "また、伊豆田洋之のソロ・アルバム「Face」での伊豆田との共同作業は、シティポップの保守本流側からも認められるものであった。"
+      "sentence": "その中で、ときめきメモリアルシリーズやとっとこハム太郎のキャラクターソングといった一般的に注目度の高い楽曲でエコーサウンドを展開することにより、バンド時代を知らないシティポップ探求家に再発見されることとなった。"
     },
     {
       "id": 9,
-      "sentence": "そんな中発表されたアルバム「FORALONGTIME」はバンド時代からのファンとアニソンから彼を発見したファンの双方から熱い支持を集めた。"
+      "sentence": "また、伊豆田洋之のソロ・アルバム「Face」での伊豆田との共同作業は、シティポップの保守本流側からも認められるものであった。"
     },
     {
       "id": 10,
+      "sentence": "そんな中発表されたアルバム「FORALONGTIME」はバンド時代からのファンとアニソンから彼を発見したファンの双方から熱い支持を集めた。"
+    },
+    {
+      "id": 11,
       "sentence": "また、彼の歌唱で熱狂的なファンが多い機動戦士Vガンダム挿入歌「いくつもの愛をかさねて」は、もともと作曲家による仮歌のつもりで録音したものが、富野由悠季監督に認められそのままのヴォーカルが使用されたものだという。"
     }
   ],
   "lack_subject_sentences": [
     {
-      "id": 1,
+      "id": 2,
       "sentence": "1986年、岩崎元是&WINDYとしてデビューする。"
     },
     {
-      "id": 4,
+      "id": 5,
       "sentence": "しかし、大人の事情としがらみで解散、裏方として活動をはじめる。"
     },
     {
-      "id": 5,
+      "id": 6,
       "sentence": "この裏方の活動の中で、自らの音楽の原点であった大滝詠一や山下達郎へのリスペクトを込めたエコーサウンドを、クライアントの顔色をうかがいつつ展開し始める。"
     },
     {
-      "id": 7,
+      "id": 8,
       "sentence": "その中で、ときめきメモリアルシリーズやとっとこハム太郎のキャラクターソングといった一般的に注目度の高い楽曲でエコーサウンドを展開することにより、バンド時代を知らないシティポップ探求家に再発見されることとなった。"
     }
   ],
   "complement_subject_sentences": [
     {
-      "id": 1,
+      "id": 2,
       "sentence": "岩崎元是は、1986年、岩崎元是&WINDYとしてデビューする。"
     },
     {
-      "id": 4,
+      "id": 5,
       "sentence": "岩崎元是は、しかし、大人の事情としがらみで解散、裏方として活動をはじめる。"
     },
     {
-      "id": 5,
+      "id": 6,
       "sentence": "岩崎元是は、この裏方の活動の中で、自らの音楽の原点であった大滝詠一や山下達郎へのリスペクトを込めたエコーサウンドを、クライアントの顔色をうかがいつつ展開し始める。"
     },
     {
-      "id": 7,
+      "id": 8,
       "sentence": "岩崎元是は、その中で、ときめきメモリアルシリーズやとっとこハム太郎のキャラクターソングといった一般的に注目度の高い楽曲でエコーサウンドを展開することにより、バンド時代を知らないシティポップ探求家に再発見されることとなった。"
     }
   ]

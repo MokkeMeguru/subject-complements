@@ -17,6 +17,7 @@ TAGGER = MeCab.Tagger('-Ochasen')
 TAGGER.parse('')
 
 
+
 def print_infos(infolist: list):
     for info in infolist:
         print(info)
@@ -31,10 +32,10 @@ def extract_abstructions(jsonfile: str):
     json_data = []
     with open(jsonfile, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
-    if len(json_data) > 1:
-        return filter(
-            lambda x: x['meta'] == 'meta-abstruct' or '概要' in x['name'],
-            json_data)
+    if len(json_data) > 0:
+        return list(filter(
+            lambda x: x['meta'] ==  "meta-abstruct" or '概要' in x['name'],
+            json_data))
     else:
         return []
 
@@ -97,15 +98,20 @@ def extract_abstruct_sentences(example):
     res = []
     for x in list(preprocess_an_example(example)):
         rres = []
-        for xx in parse_snlp.refinement_doc(parse_snlp.get_doc(Pipeline,
+        try:
+            for xx in parse_snlp.refinement_doc(parse_snlp.get_doc(Pipeline,
                                                                x)).sentences:
-            idx += 1
-            # print(decode_raw_sentence(xx))
-            rres.append({
-                'id': idx,
-                'sentence': xx,
-                'raw_sentence': decode_raw_sentence(xx)
-            })
+                if len(xx) >=3:
+                    idx += 1
+                    # print(decode_raw_sentence(xx))
+                    rres.append({
+                        'id': idx,
+                        'sentence': xx,
+                        'raw_sentence': decode_raw_sentence(xx)
+                    })
+        except AssertionError:
+            print(x)
+
         res.append(rres)
     return res
 
@@ -114,6 +120,7 @@ def complete_subjects(path):
     example = extract_abstructions(path)
     info = get_title(example)
     abstruct_sentences = extract_abstruct_sentences(example)
+
 
     if len(abstruct_sentences) == 0:
         return {
@@ -137,6 +144,7 @@ def complete_subjects(path):
             'id': x['id'],
             'sentence': x['raw_sentence']
         }, reduce(lambda a, b: a + b, abstruct_sentences)))
+
     tmp_lack_subject_sentences = list(
         filter(
             lambda xl: len(xl) != 0,

@@ -83,8 +83,22 @@
      {:get {:summary "dataset list"
             :handler (fn [_]
                        {:status 200
-                        :body (ev/get-datasets) })}}]
-
+                        :body (ev/get-datasets)})}}]
+    ["/dataset"
+     {:get {:summary "get a dataset"
+            :parameters {:query {:name string?}}
+            :handler (fn [{{{:keys [name]} :query} :parameters}]
+                       {:status 200
+                        :body (ev/get-dataset name)})}}]
+    ["/evaluate"
+     {:put {:summary "evaluate any thing"
+             :parameters {:body {:path string? :evaluation any?}}
+            :handler (fn [{{{:keys [path evaluation]} :body} :parameters}]
+                       (ev/save-evaluate path evaluation)
+                        {:status 200
+                         :body {}})}
+      }]
+    
     ["/download"
      {:get {:summary "downloads a file"
             :swagger {:produces ["image/png"]}
@@ -94,3 +108,5 @@
                         :body (-> "public/img/warning_clojure.png"
                                   (io/resource)
                                   (io/input-stream))})}}]]])
+
+

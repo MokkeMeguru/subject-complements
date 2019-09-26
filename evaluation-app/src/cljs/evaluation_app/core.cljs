@@ -7,7 +7,9 @@
     [evaluation-app.ajax :as ajax]
     [ajax.core :refer [GET POST]]
     [reitit.core :as reitit]
-    [clojure.string :as string])
+    [clojure.string :as string]
+
+    [evaluation-app.services.evaluation :as ev])
   (:import goog.History))
 
 (defonce session (r/atom {:page :home}))
@@ -32,7 +34,8 @@
       {:class (when @expanded? :is-active)}
       [:div.navbar-start
        [nav-link "#/" "Home" :home]
-       [nav-link "#/about" "About" :about]]]]))
+       [nav-link "#/about" "About" :about]
+       [nav-link "#/eval" "Eval" :evaluation]]]]))
 
 (defn about-page []
   [:section.section>div.container>div.content
@@ -45,7 +48,8 @@
 
 (def pages
   {:home #'home-page
-   :about #'about-page})
+   :about #'about-page
+   :evaluation #'ev/home-page})
 
 (defn page []
   [(pages (:page @session))])
@@ -56,7 +60,8 @@
 (def router
   (reitit/router
     [["/" :home]
-     ["/about" :about]]))
+     ["/about" :about]
+     ["/eval" :evaluation]]))
 
 (defn match-route [uri]
   (->> (or (not-empty (string/replace uri #"^.*#" "")) "/")
