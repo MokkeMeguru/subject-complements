@@ -1,0 +1,209 @@
+#+TITLE: 日本語のHTMLでも知識抽出がしたい！
+#+AUTHOR: MokkeMeguru
+# This is a Bibtex reference
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:t arch:headline ^:nil
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:nil e:nil email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:nil title:t toc:nil todo:t |:t
+#+LANGUAGE: ja
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.2 (Org mode 9.2.3)
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper, dvipdfmx, 10pt]
+#+LATEX_HEADER: \usepackage{amsmath, amssymb, bm}
+#+LATEX_HEADER: \usepackage{graphics}
+#+LATEX_HEADER: \usepackage{color}
+#+LATEX_HEADER: \usepackage{times}
+#+LATEX_HEADER: \usepackage{longtable}
+#+LATEX_HEADER: \usepackage{minted}
+#+LATEX_HEADER: \usepackage{fancyvrb}
+#+LATEX_HEADER: \usepackage{indentfirst}
+#+LATEX_HEADER: \usepackage{pxjahyper}
+# #+LATEX_HEADER: \hypersetup{colorlinks=false, pdfborder={0 0 0}}
+#+LATEX_HEADER: \usepackage[utf8]{inputenc}
+#+LATEX_HEADER: \usepackage[backend=biber, bibencoding=utf8]{biblatex}
+#+LATEX_HEADER: \usepackage[top=20truemm, bottom=25truemm, left=25truemm, right=25truemm]{geometry}
+#+LATEX_HEADER: \usepackage{ascmac}
+#+LATEX_HEADER: \usepackage{algorithm}
+#+LATEX_HEADER: \usepackage{algorithmic}
+#+LATEX_HEADER: \addbibresource{/home/meguru/Github/private-Journal/research-plan/reference.bib}
+#+DESCRIPTION:
+#+KEYWORDS:
+#+STARTUP: indent overview inlineimages
+* 背景
+** 個人的な話
+#+BEGIN_QUOTE
+オタクくん向けな対話システム作りたいんだけど、知識、足りないんだ…
+Wikipediaの情報だけだと不安だよね、niconico(pixiv)大百科、解析します。
+#+END_QUOTE
+
+対話システムの研究をしたい、ということで Gunrock などの論文を読みつつ、どうにかして日本語でこれを達成できないかと試行錯誤していたある時、こんな課題にぶつかりました。
+対話システムの研究は一見、最近の流れに漏れずディープラーニング先輩とかレインフォレストラーニング先輩とかが中心かと思いきや、かなりの部分で **知識** がボトルネックになる場合があります。というか **知識** がないとお話になりません。手打ちで知識を入力したりする場合があったりなかったりするくらいには **知識** に飢えています。
+
+**知識** とは簡単に例を挙げるとすれば、 「初音ミク は Vocaloid」、というような現実世界の **事実** の集合を指します。
+
+この **知識** を集めたければ、
+
+1. 地道に手打ちする
+2. 神様にお祈りして整形済みデータをもらう 
+3. 泥水をすするように Big な Data (HTML) を解析する
+
+いった手法が考えられます。
+
+無限の財産か無限の奴隷を持っている大企業様などでは 1. が利用できますし、所謂研究者様は 2. が利用できますが、たかだか個人では 3. しか取れる手段がありません。
+
+つまるところ、私は **対話システムを作るために必要な知識が欲しいから、HTMLをゴリゴリ解析していく** 、というステップにいるわけです。
+
+** 一般的な(界隈の？)話
+#+BEGIN_QUOTE
+ニホンジン、Wikipediaとかのデータ、あんまり書いてくれない…
+Wikipedia よりも外側のデータに向けての研究をしたら、もっと研究が活発にならない？
+#+END_QUOTE
+
+Wikipedia なんかでちょっと学術的なことを検索しようとしたとき、とりあえず英語にして検索すること、ありませんか？
+
+勿論日本語 Wikipedia データも膨大ではありますが、それでも英語のデータに比べればかなり少ないです。
+更に言うと〇〇大百科、みたいなサイトが日本の特にサブカルチャー系では盛んに利用されています（要統計）。
+
+また海外の対話システムの研究などでは既に、Reddit（掲示板サイト）や Twitter Moment なども知識ベースに組み込むことでユーザの満足度を向上させている例が報告されています。(Gunrock や りんな 等)
+
+しかしながら英語と日本語では結構データの性質が異なる場合があります。
+
+その代表例が「 **ゼロ主語** 」という課題です。これは特に対話などで見られる、共通の話題としてある語を示す主語部が省略されることによって発生する課題で、人間同士でわかっているその主語を補完することが非常に難しいということが知られています。
+
+そんなわけで日本語をどうやって解析するのか、という点を掘り下げていく点で現在私が取り組んでいる課題は（やや不本意ですが）界隈の助けになれるのではないかと思います。
+
+#+BEGIN_QUOTE
+いうて今やっていること、たかだか前処理ですよね -- xxx
+#+END_QUOTE
+* 先行研究
+後に説明しますが、今回扱った内容はかなり局所的な問題への取り組みなので、あまり先行研究を取り上げることができませんが、まずは大御所のこれを紹介させてください。
+** DeepDive
+KBC (Knowledge Base Construction) についてのプロジェクト。沢山の論文と、ビッグな研究成果を引っさげて、つい数年前に幕を引いたバケモノ
+
+具体的にデータからモデルまでの線を引いた、というよりは、 **こういうフレームワークに従って知識ベース** を作ると上手くいくと思うんだ。みんなこんな形で研究していこうな、みたいなノリ。
+勿論成果は出ているし、先行研究もしっかり反映しているので定量評価ガーと騒ぐ必要はないです。
+
+但し具体的にどうHTMLをパースして…みたいな手法は書いておらず、
+
+#+BEGIN_QUOTE
+とりあえずスクリプト書いて→モデルにしてみて→性能を評価して→悪ければスクリプトを修正・追加して→以降ループ
+#+END_QUOTE
+
+といった手法を提案しているので、この **スクリプトを書く** 部分は自分達で導くしかありません。
+
+* 問題定義
+一朝一夕にすべてのWebを手中に収めることが無理なので、まずは [[https://www.nii.ac.jp/dsc/idr/nico/][niconico 大百科データセット]] を解析してみることを先にお断り申し上げておきます。
+
+問題定義は次のようになります。
+
+#+BEGIN_EXAMPLE
+日本語の半構造的データ(HTML)からの知識抽出を行う
+#+END_EXAMPLE
+
+**半構造データ** 、と表記した理由は本問題が、HTMLからテキストを抽出することを目標としているのではなく、 **HTMLの構造化情報とテキストから知識抽出を行うこと** を目標としているためです。
+
+この制約のために、PythonのWebスクレイピングで有名なライブラリ、 BeautifulSoup よりも、もう少しDSL (Domain Specific Language) 的な解決方法を望みたくなります。つまりリストやDictへ相互変換できるようなツールが欲しくなるわけです。
+
+つまり次のような全単射関数が欲しいわけです。
+
+#+begin_src html
+<!DOCTYPE html>
+<html>
+    <body>
+        こんにちは！<h1>Title A</h1><p>
+        Hello, NLP!
+        </p>
+        <h2>Content</h2><ul>
+            <li>tutorial</li><li>advanced</li></ul>
+            <p>
+                Let's parse!
+            </p>
+            <h2>TODOs</h2><p>
+                There are <span>many of many</span> thing to do.
+            </p>
+    </body>
+</html>
+#+end_src
+
+#+begin_src clojure
+{:type :document,
+ :content
+ [{:type :document-type, :attrs {:name "html", :publicid "", :systemid ""}}
+  {:type :element,
+   :attrs nil,
+   :tag :html,
+   :content
+   [{:type :element, :attrs nil, :tag :head, :content nil}
+    {:type :element,
+     :attrs nil,
+     :tag :body,
+     :content
+     ["こんにちは！"
+      {:type :element, :attrs nil, :tag :h1, :content ["Title A"]}
+      {:type :element, :attrs nil, :tag :p, :content ["Hello, NLP!"]}
+      {:type :element, :attrs nil, :tag :h2, :content ["Content"]}
+      {:type :element,
+       :attrs nil,
+       :tag :ul,
+       :content
+       [{:type :element, :attrs nil, :tag :li, :content ["tutorial"]}
+        {:type :element, :attrs nil, :tag :li, :content ["advanced"]}]}
+      {:type :element, :attrs nil, :tag :p, :content ["Let's parse!"]}
+      {:type :element, :attrs nil, :tag :h2, :content ["TODOs"]}
+      {:type :element,
+       :attrs nil,
+       :tag :p,
+       :content
+       ["There are"
+        {:type :element, :attrs nil, :tag :span, :content ["many of many"]}
+        "thing to do."]}]}]}]}
+#+end_src
+
+このようにすることで、テキストとタグを分離しアクセスしやすい状態にし、必要そうなタグを残しつつ、不要そうなタグを消していくという処理を行います。
+
+* 実データの観察
+[[問題定義]] のようにして 対象データセット niconico 大百科 の HTML解析を行ったところ、いくつかの情報が得られました。
+
+- 見出し語、ないしその章名を指す場合、主語があからさまに消えてる場合がある ( **ゼロ主語** )
+- 一文中に span タグなどの装飾を挟むことが多い
+- Table 要素は thead 要素の有無などバリエーションが多い
+- リスト要素はほとんど並列の意味として機能している
+
+* 再度問題定義
+特に主語が消えている場合が多く見受けられたため、問題を分割し
+#+BEGIN_EXAMPLE
+特にその見出し語の概要に含まれる文章で主語が欠けているものについて統計を取り、
+見出し語によるゼロ主語補完を行う
+#+END_EXAMPLE
+
+というものに再設定しました。
+
+ここまで問題が小さくなると、ぱっと手軽な実験が行なえますね。
+
+* 実験計画
+今回は機械学習などは用いずにヒューリスティックに主語補完を行います。
+
+1. 簡単のためデータセットからデータを100程サンプルする。
+2. サンプルしたHTMLから概要部のテキストをHTML解析によって抽出する。
+3. 抽出したテキストを一文ずつ句構造解析し、主語が欠けていると思われる文を抽出する。
+4. 主語が欠けていると思われる文に対して、見出し語を用いた主語補完を行う。
+5. どの程度主語が欠けている文があったか、どの程度補完が上手くいったかを統計する。
+
+本来ならば複数人のアンケート調査などを行うのですが、 **お金がない** 、というのと **個人的な勉強** というので一人でやっています。
+
+おすすめしませんが論文などにしたい場合は、コードをすべて公開しているので、それを用いて再実験してください。
+* 実装
+実装は3段階に分かれます。
+1. HTMLの解析を行なう Clojure 部 (url)
+2. 句構造解析を行なう Python 部 (url)
+3. 採点（アノテーション）を行なう Clojure/ClojureScript 部 (url)
+
+3. については Javascriptとか Typescript でも良かったんですが、ファイル周りが面倒でやめました。
+
+* 結果
+
+* 今後の課題
+
