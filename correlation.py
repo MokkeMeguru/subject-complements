@@ -3,6 +3,7 @@ import csv
 import json
 import pandas as pd
 import numpy as np
+from scipy import stats
 
 
 def get_all_evaluated_file(root_path):
@@ -149,6 +150,7 @@ def main():
 
     sentence_num = df.shape[0]
     read_task_1(df)
+    df.to_csv('resultview1.tsv', sep='\t', index=False)
 
     with task_2_1.open() as r:
         tdf = pd.read_table(r)
@@ -167,3 +169,101 @@ def main():
     print('主語を補完する必要があると判断された文: {}'.format(df.shape[0]))
     read_task_2_1(df, sentence_num)
     read_task_2_2(df, sentence_num)
+
+    df.to_csv('resultview2.tsv', sep='\t', index=False)
+    t1_minus = (df['t1_score_-1'] == 1)
+    t1_equal = (df['t1_score_0'] == 1)
+    t1_plus = (df['t1_score_1'] == 1)
+    t2_1_minus = (df['t2_1_score_-1'] == 1)
+    t2_1_plus = (df['t2_1_score_1'] == 1)
+    t2_2_minus = (df['t2_2_score_-1'] == 1)
+    t2_2_plus = (df['t2_2_score_1'] == 1)
+    from prettytable import PrettyTable
+
+    result = PrettyTable()
+    result.field_names = ['', 't2_1 -1', 't2_1 +1', 'sum']
+    result.add_row([
+        't1 -1', (t1_minus & t2_1_minus).sum(), (t1_minus & t2_1_plus).sum(),
+        t1_minus.sum()
+    ])
+    result.add_row([
+        't1 0', (t1_equal & t2_1_minus).sum(), (t1_equal & t2_1_plus).sum(),
+        t1_equal.sum()
+    ])
+    result.add_row([
+        't1 +1', (t1_plus & t2_1_minus).sum(), (t1_plus & t2_1_plus).sum(),
+        t1_plus.sum()
+    ])
+    result.add_row([
+        'sum',
+        t2_1_minus.sum(),
+        t2_1_plus.sum(),
+        t2_1_minus.sum() + t2_1_plus.sum()
+    ])
+    print(result.get_string())
+
+    result = PrettyTable()
+    result.field_names = ['', 't2_2 -1', 't2_2 +1', 'sum']
+    result.add_row([
+        't1 -1', (t1_minus & t2_2_minus).sum(), (t1_minus & t2_2_plus).sum(),
+        t1_minus.sum()
+    ])
+    result.add_row([
+        't1 0', (t1_equal & t2_2_minus).sum(), (t1_equal & t2_2_plus).sum(),
+        t1_equal.sum()
+    ])
+    result.add_row([
+        't1 +1', (t1_plus & t2_2_minus).sum(), (t1_plus & t2_2_plus).sum(),
+        t1_plus.sum()
+    ])
+    result.add_row([
+        'sum',
+        t2_2_minus.sum(),
+        t2_2_plus.sum(),
+        t2_2_minus.sum() + t2_2_plus.sum()
+    ])
+    print(result.get_string())
+
+    result = PrettyTable()
+    result.field_names = ['', 't2_1 -1', 't2_1 +1', 'sum']
+    result.add_row([
+        't2_2 -1', (t2_2_minus & t2_1_minus).sum(), (t2_2_minus & t2_1_plus).sum(),
+        t2_2_minus.sum()
+    ])
+    result.add_row([
+        't2_2 1', (t2_2_plus & t2_1_minus).sum(), (t2_2_plus & t2_1_plus).sum(),
+        t2_2_plus.sum()
+    ])
+    
+    result.add_row([
+        'sum',
+        t2_1_minus.sum(),
+        t2_1_plus.sum(),
+        t2_1_minus.sum() + t2_1_plus.sum()
+    ])
+    print(result.get_string())
+
+
+    t1_vs_t2_1 = np.array([
+        [(t1_minus & t2_1_minus).sum(), (t1_minus & t2_1_plus).sum()],
+        [(t1_equal & t2_1_minus).sum(), (t1_equal & t2_1_plus).sum()],
+        [(t1_plus & t2_1_minus).sum(),(t1_plus & t2_1_plus).sum()]])
+    result = stats.chi2_contingency(t1_vs_t2_1)
+    print('t1_vs_t2_1\nchi2 result {}\np-value {}'.format(
+        result[0], result[1]))
+
+    t1_vs_t2_2 = np.array([
+        [(t1_minus & t2_2_minus).sum(), (t1_minus & t2_2_plus).sum()],
+        [(t1_equal & t2_2_minus).sum(), (t1_equal & t2_2_plus).sum()],
+        [(t1_plus & t2_2_minus).sum(),  (t1_plus & t2_2_plus).sum()]])
+    result = stats.chi2_contingency(t1_vs_t2_2)
+    print('t1_vs_t2_2\nchi2 result {}\np-value {}'.format(
+        result[0], result[1]))
+
+    t2_1_vs_t2_2 = np.array([
+        [(t2_1_minus & t2_2_minus).sum(), (t2_1_minus & t2_2_plus).sum()],
+        [(t2_1_plus & t2_2_minus).sum(), (t2_1_plus & t2_2_plus).sum()]
+        ])
+    result = stats.chi2_contingency(t2_1_vs_t2_2)
+    print('t1_vs_t2_1\nchi2 result {}\np-value {}'.format(
+        result[0], result[1]))
