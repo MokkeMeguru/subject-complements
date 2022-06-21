@@ -15,7 +15,7 @@ ipython-genutils==0.2.0
 jedi==0.15.1
 mccabe==0.6.1
 mecab-python3==0.996.2
-numpy==1.17.1
+numpy==1.22.0
 parso==0.5.1
 pexpect==4.7.0
 pickleshare==0.7.5
